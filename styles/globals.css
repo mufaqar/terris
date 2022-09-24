@@ -2,7 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-.team > span{
-    width: 100% !important;
-    height: auto !important;
-}
+
+
+@font-face {
+    font-family: "AtlasGroteskReg"; 
+    src: url("../public/fonts/atlasgrotesk-regular.woff2");
+  }
+  @font-face {
+    font-family: "AtlasGroteskMed"; 
+    src: url("../public/fonts/atlasgrotesk-medium.woff2");
+  }

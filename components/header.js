@@ -18,7 +18,7 @@ export default function Header() {
             </Head>
 
             <nav className="">
-                <div className="container md:w-7/12 w-full mx-auto md:text-[1.375rem] text-[0.813rem] font-normal md:py-8 py-4 px-2 flex justify-between">
+                <div className="container md:w-7/12 w-full mx-auto md:text-[1.375rem] text-[0.813rem] font-AtlasGroteskRegular font-normal md:py-8 py-4 px-2 flex justify-between">
                     <NavLink to="/about">
                         About
                     </NavLink>

@@ -5,7 +5,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        AtlasGroteskRegular: ["AtlasGroteskReg", "sans-serif"],
+        AtlasGroteskMeduim: ["AtlasGroteskMed", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }
