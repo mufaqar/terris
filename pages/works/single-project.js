@@ -113,26 +113,31 @@ export default function SingleProject() {
             title="Union Street"
             detail="MA+HG"
             info="Restoration + In-fill Building"
+            icon="/images/union/1.webp"
           />
           <WorkBox
             title="Union Street"
             detail="MA+HG"
             info="Restoration + In-fill Building"
+            icon="/images/union/2.webp"
           />
           <WorkBox
             title="Union Street"
             detail="MA+HG"
             info="Restoration + In-fill Building"
+            icon="/images/union/8.webp"
           />
           <WorkBox
             title="Union Street"
             detail="MA+HG"
             info="Restoration + In-fill Building"
+            icon="/images/union/9.webp"
           />
           <WorkBox
             title="Union Street"
             detail="MA+HG"
             info="Restoration + In-fill Building"
+            icon="/images/union/10.webp"
           />
         </div>
       </section>
