@@ -7,9 +7,14 @@ export default function WorkBox(props) {
       <Link href="/works/single-project">
         <a>
           <figure className="relative work">
-            <Image src={props.icon} layout="fill" alt="" className='image'></Image>
+            <Image
+              src={props.icon}
+              layout="fill"
+              alt=""
+              className="image"
+            ></Image>
           </figure>
-          <div className="md:text-[1.375rem] text-[0.813rem]">
+          <div className="md:text-[1.375rem] text-[0.813rem] mt-4">
             <h3 className="font-AtlasGroteskMeduim">{props.title}</h3>
             <p className="font-AtlasGroteskRegular">{props.detail}</p>
             <p className="font-AtlasGroteskRegular">{props.info}</p>
