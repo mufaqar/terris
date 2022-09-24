@@ -20,23 +20,25 @@ export default function SingleProject() {
           <div className="md:text-[1.375rem] text-[0.813rem]">
             <h3 className="font-AtlasGroteskMeduim">Union Street</h3>
             <p className="font-AtlasGroteskRegular">MA+HG</p>
-            <p className="font-AtlasGroteskRegular">Restoration + In-fill Building</p>
+            <p className="font-AtlasGroteskRegular">
+              Restoration + In-fill Building
+            </p>
           </div>
         </div>
 
         <div className="gallery container md:w-7/12 w-full mx-auto px-2">
           <div className="grid gap-3">
-            <Image src={Gallery1}></Image>
-            <Image src={Gallery2}></Image>
-            <Image src={Gallery3}></Image>
-            <Image src={Gallery4}></Image>
-            <Image src={Gallery5}></Image>
-            <Image src={Gallery6}></Image>
-            <Image src={Gallery7}></Image>
-            <Image src={Gallery8}></Image>
-            <Image src={Gallery9}></Image>
-            <Image src={Gallery10}></Image>
-            <Image src={Gallery11}></Image>
+            <Image src={Gallery1} alt=""></Image>
+            <Image src={Gallery2} alt=""></Image>
+            <Image src={Gallery3} alt=""></Image>
+            <Image src={Gallery4} alt=""></Image>
+            <Image src={Gallery5} alt=""></Image>
+            <Image src={Gallery6} alt=""></Image>
+            <Image src={Gallery7} alt=""></Image>
+            <Image src={Gallery8} alt=""></Image>
+            <Image src={Gallery9} alt=""></Image>
+            <Image src={Gallery10} alt=""></Image>
+            <Image src={Gallery11} alt=""></Image>
           </div>
         </div>
 
@@ -52,12 +54,16 @@ export default function SingleProject() {
             <li className="font-AtlasGroteskRegular">
               Five-unit stratified infill building
             </li>
-            <li className="font-AtlasGroteskRegular">Original house lifted and restored</li>
+            <li className="font-AtlasGroteskRegular">
+              Original house lifted and restored
+            </li>
             <li className="font-AtlasGroteskRegular">
               Custom, full metal stairs welded on-site
             </li>
             <li className="font-AtlasGroteskRegular">Steel deck canopy</li>
-            <li className="font-AtlasGroteskRegular">Triangle roof framing in the attic</li>
+            <li className="font-AtlasGroteskRegular">
+              Triangle roof framing in the attic
+            </li>
           </ul>
 
           <ul className="md:text-xl text-[0.813rem]">
@@ -66,15 +72,16 @@ export default function SingleProject() {
               <a
                 href="https://www.canadianarchitect.com/united-front-union-vancouver-british-columbia"
                 target="_blank"
+                rel="noreferrer"
               >
                 Canadian Architect
               </a>
             </li>
             <li className="font-AtlasGroteskRegular">
-              {' '}
               <a
                 href="https://www.westernliving.ca/homes-and-design/homes/inside-a-beautiful-vancouver-renovation-that-plays-with-shape-and-colour"
                 target="_blank"
+                rel="noreferrer"
               >
                 Western Living Magazine
               </a>
