@@ -5,17 +5,15 @@ export default function About() {
     return (
         <>
             <section>
-                <div className='container md:w-7/12 w-full mx-auto md:pt-10 md:pb-5 py-8 px-2'>
+                <div className='container md:w-7/12 w-full mx-auto pb-10 px-2'>
                     <div className="md:w-[39.938rem] w-full ">
-                        <p className='font-AtlasGroteskRegular md:text-[1.375rem] text-[0.813rem]'>Facilitating design intent across residential dwelling typologies in British Columbia’s lower mainland.</p>
+                        <p className='lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular'>Facilitating design intent across residential dwelling typologies in British Columbia’s lower mainland.</p>
                     </div>
                 </div>
 
-                <div className='container md:w-7/12 w-full mx-auto md:pt-10 md:pb-5 py-8 px-2'>
-                    <h3 className='font-AtlasGroteskMeduim md:text-[1.375rem] text-[0.813rem] mb-3'>Senior Project Management</h3>
-                    <div className="grid md:grid-cols-3 grid-cols-2 gap-2">
-                        <TeamBox />
-                        <TeamBox />
+                <div className='container md:w-7/12 w-full mx-auto pb-10 px-2'>
+                    <h3 className='lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim mb-3'>Senior Project Management</h3>
+                    <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-[9px]">
                         <TeamBox />
                         <TeamBox />
                         <TeamBox />
@@ -23,11 +21,9 @@ export default function About() {
                     </div>
                 </div>
 
-                <div className='container md:w-7/12 w-full mx-auto md:pt-10 md:pb-5 py-8 px-2'>
-                    <h3 className='font-AtlasGroteskMeduim md:text-[1.375rem] text-[0.813rem] mb-3'>Junior Site Management</h3>
-                    <div className="grid md:grid-cols-3 grid-cols-2 gap-2">
-                        <TeamBox />
-                        <TeamBox />
+                <div className='container md:w-7/12 w-full mx-auto pb-10 px-2'>
+                    <h3 className='lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim mb-3'>Junior Site Management</h3>
+                    <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-[9px]">
                         <TeamBox />
                         <TeamBox />
                         <TeamBox />
@@ -35,11 +31,9 @@ export default function About() {
                     </div>
                 </div>
                 
-                <div className='container md:w-7/12 w-full mx-auto md:pt-10 md:pb-5 py-8 px-2'>
-                    <h3 className='font-AtlasGroteskMeduim md:text-[1.375rem] text-[0.813rem] mb-3'>Carpentry</h3>
-                    <div className="grid md:grid-cols-3 grid-cols-2 gap-2">
-                        <TeamBox />
-                        <TeamBox />
+                <div className='container md:w-7/12 w-full mx-auto pb-10 px-2'>
+                    <h3 className='lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim mb-3'>Carpentry</h3>
+                    <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-[9px]">
                         <TeamBox />
                         <TeamBox />
                         <TeamBox />

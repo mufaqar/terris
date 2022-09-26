@@ -1,5 +1,3 @@
-import Link from 'next/link';
-import Image from 'next/image';
 import Head from 'next/head';
 
 function NavLink({ to, children }) {
@@ -18,7 +16,7 @@ export default function Header() {
             </Head>
 
             <nav className="">
-                <div className="container md:w-7/12 w-full mx-auto md:text-[1.375rem] text-[0.813rem] font-AtlasGroteskRegular font-normal md:py-8 py-4 px-2 flex justify-between">
+                <div className="container md:w-7/12 w-full mx-auto lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular font-normal pt-16 pb-[2.625rem] px-2 flex justify-between">
                     <NavLink to="/about">
                         About
                     </NavLink>
