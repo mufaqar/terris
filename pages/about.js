@@ -40,6 +40,16 @@ export default function About() {
                         <TeamBox />
                     </div>
                 </div>
+                
+                <div className='container md:w-7/12 w-full mx-auto pb-10 px-2'>
+                    <h3 className='lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim mb-3'>Office</h3>
+                    <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-[9px]">
+                        <TeamBox />
+                        <TeamBox />
+                        <TeamBox />
+                        <TeamBox />
+                    </div>
+                </div>
             </section>
         </>
     )
