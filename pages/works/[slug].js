@@ -97,16 +97,6 @@ export default function SlugPage({ project }) {
               allowfullscreen
             ></iframe>
           </div>
-
-          {/* <iframe
-            src="https://player.vimeo.com/video/546682148?h=a1b3cf7c37&title=0&byline=0&portrait=0"
-            width="1200"
-            height="800"
-            className=" top-0 w-full aspect-video "
-            frameBorder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
-            allowFullScreen
-          ></iframe> */}
         </div>
 
         <div className=" xl:w-[70%] w-full mx-auto pt-[9px] px-2  grid gap-7">
