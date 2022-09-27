@@ -30,12 +30,12 @@ export default function Contact() {
 
             <ul className="">
               <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
-                <a href="tell:+1 604 535 5323">
+                <a href="tell:+1 604 535 5323" rel="noreferrer">
                   <a>+1 604 535 5323</a>
                 </a>
               </li>
               <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
-                <a href="mailto:rterris@terrisco.com">
+                <a href="mailto:rterris@terrisco.com" rel="noreferrer">
                   <a>rterris@terrisco.com</a>
                 </a>
               </li>
@@ -43,14 +43,22 @@ export default function Contact() {
 
             <ul className="">
               <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
-                <a href="https://www.instagram.com/terris.co" target="_blank">
+                <a
+                  href="https://www.instagram.com/terris.co"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Instagram
                 </a>
               </li>
             </ul>
             <ul className="">
               <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
-                <a href="https://www.makerbros.co" target="_blank">
+                <a
+                  href="https://www.makerbros.co"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   A nice one by Maker Brothers Worldwide®
                 </a>
               </li>
