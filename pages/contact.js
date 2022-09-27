@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <>
       <section>
-        <div className="container md:w-7/12 w-full mx-auto  md:pb-5  px-2 h-[80vh] flex flex-col justify-between">
+        <div className="container lg:w-7/12 w-full mx-auto  md:pb-5  px-2 h-[80vh] flex flex-col justify-between">
           <div className="grid gap-7">
             <ul className="">
               <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
