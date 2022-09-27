@@ -1,15 +1,3 @@
-import Image from 'next/image';
-import Gallery1 from '../../public/images/union/1.webp';
-import Gallery2 from '../../public/images/union/2.webp';
-import Gallery3 from '../../public/images/union/3.webp';
-import Gallery4 from '../../public/images/union/4.webp';
-import Gallery5 from '../../public/images/union/5.webp';
-import Gallery6 from '../../public/images/union/6.webp';
-import Gallery7 from '../../public/images/union/7.webp';
-import Gallery8 from '../../public/images/union/8.webp';
-import Gallery9 from '../../public/images/union/9.webp';
-import Gallery10 from '../../public/images/union/10.webp';
-import Gallery11 from '../../public/images/union/11.webp';
 import WorkBox from '../../components/workBox';
 import { sanityClient } from '../../lib/sanityClient';
 import OwnImage from '../../components/OwnImage';
@@ -65,7 +53,7 @@ export default function SlugPage({ project }) {
   return (
     <>
       <section>
-        <div className="container md:w-7/12 w-full mx-auto pb-[9px] px-2">
+        <div className=" xl:w-[70%] w-full mx-auto pb-[9px] px-2">
           <div className="">
             <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim">
               {project.title}
@@ -79,7 +67,7 @@ export default function SlugPage({ project }) {
           </div>
         </div>
 
-        <div className="container w-full px-2 mx-auto gallery md:w-7/12">
+        <div className=" w-full px-2 mx-auto gallery xl:w-[70%]">
           <div className="grid gap-[9px]">
             <OwnImage
               path={project.featureimage.asset.url}
@@ -99,7 +87,7 @@ export default function SlugPage({ project }) {
           </div>
         </div>
 
-        <div className="container md:w-7/12 w-full mx-auto pt-[9px] px-2  grid gap-7">
+        <div className=" xl:w-[70%] w-full mx-auto pt-[9px] px-2  grid gap-7">
           <ul className="">
             <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
               {project?.location}
@@ -159,7 +147,7 @@ export default function SlugPage({ project }) {
         </div>
       </section>
       <section>
-        <div className="w-full px-2 mx-auto conteiner md:w-7/12 ">
+        <div className="w-full px-2 mx-auto conteiner xl:w-[70%] ">
           {project.related_project.map((related, index) => (
             <WorkBox
               title={related.title}
