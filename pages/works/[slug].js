@@ -90,10 +90,11 @@ export default function SlugPage({ project }) {
         <div className="relative xl:w-[70%] w-full mx-auto pt-[9px] px-2 gap-7">
           <div className="aspect-w-16 aspect-h-9">
             <iframe
-              src={`https://player.vimeo.com/video/${project.video}?color=0c88dd&title=0&byline=0&portrait=0&badge=0`}
+              src={`https://player.vimeo.com/video/${project.video}?color=ffffff&title=0&byline=0&portrait=0&badge=0`}
               width="640"
               height="360"
               frameBorder="0"
+              className='bg-white'
               allow="autoplay; fullscreen; picture-in-picture"
               allowFullScreen
             ></iframe>
