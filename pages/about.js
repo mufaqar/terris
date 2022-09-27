@@ -56,7 +56,7 @@ export default function About({ team }) {
           </div>
         </div>
 
-        <div className="container w-full px-2 pb-10 mx-auto md:w-7/12">
+        <div className="w-full px-2 pb-10 mx-auto xl:w-[70%]">
           <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim mb-3">
             Junior Site Management
           </h3>
@@ -78,7 +78,7 @@ export default function About({ team }) {
           </div>
         </div>
 
-        <div className="container w-full px-2 pb-10 mx-auto md:w-7/12">
+        <div className="w-full px-2 pb-10 mx-auto xl:w-[70%]">
           <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim mb-3">
             Carpentry
           </h3>
@@ -100,7 +100,7 @@ export default function About({ team }) {
           </div>
         </div>
 
-        <div className="container w-full px-2 pb-10 mx-auto md:w-7/12">
+        <div className="w-full px-2 pb-10 mx-auto xl:w-[70%]">
           <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim mb-3">
             Office
           </h3>
