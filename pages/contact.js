@@ -30,7 +30,7 @@ export default function Contact() {
 
             <ul className="">
               <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
-                <a href="tell:+1 604 535 5323" rel="noreferrer">
+                <a href="tel:+16045355323" rel="noreferrer">
                   <a>+1 604 535 5323</a>
                 </a>
               </li>
