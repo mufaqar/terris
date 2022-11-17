@@ -53,8 +53,8 @@ const projectSlugQuery = `*[_type == "projects" && slug.current == $slug][0]{
 export default function SlugPage({ project }) {
   return (
     <>
-      <section>
-        <div className=" xl:w-[70%] w-full mx-auto pb-[9px] px-2">
+      <section className=''>
+        <div className=" xl:w-[70%] w-full mx-auto mb-[42px] px-2 ">
           <div className="">
             <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim">
               {project.title}
@@ -101,7 +101,7 @@ export default function SlugPage({ project }) {
           </div>
         </div>
 
-        <div className=" xl:w-[70%] w-full mx-auto pt-[9px] px-2  grid gap-7">
+        <div className=" xl:w-[70%] w-full mx-auto pt-[9px] px-2  grid gap-7 mt-[42px]">
           <ul className="">
             <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
               {project?.location}
@@ -145,7 +145,7 @@ export default function SlugPage({ project }) {
             ))}
           </ul>
 
-          <ul className="border-b border-black mb-10 pb-[9px]">
+          <ul className="border-b border-black pb-[42px]">
             <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim">
               Collaborators
             </li>
@@ -160,7 +160,7 @@ export default function SlugPage({ project }) {
           </ul>
         </div>
       </section>
-      <section>
+      <section className='mb-[9px]'>
         <div className="w-full px-2 mx-auto conteiner xl:w-[70%] ">
           {project.related_project.map((related, index) => (
             <WorkBox

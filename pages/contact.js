@@ -6,7 +6,7 @@ export default function Contact() {
     <>
       <section>
         <div className="xl:w-[70%] w-full mx-auto  md:pb-5  px-2 h-[80vh] flex flex-col justify-between">
-          <div className="grid gap-7">
+          <div className="grid gap-[42px]">
             <ul className="">
               <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
                 Terris & Company General Contractors Ltd.
