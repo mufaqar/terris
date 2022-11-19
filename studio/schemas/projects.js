@@ -129,7 +129,7 @@ export default {
       title: 'Area',
     },
     {
-      title: 'Project highlights',
+      title: 'Project Highlights',
       name: 'project_highlights',
       type: 'array',
       of: [{ type: 'string' }],
@@ -157,7 +157,7 @@ export default {
       ],
     },
     {
-      title: 'collaborators',
+      title: 'Collaborators',
       name: 'Collaborators',
       type: 'array',
       of: [{ type: 'string' }],
