@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function WorkBox({ featureImage, title, tag, type, slug }) {
   return (
-    <div className="pb-[42px]">
+    <div className="mt-[84px]">
       <Link href={`/works/${slug}`}>
         <a>
           <figure className="relative work">
@@ -14,7 +14,7 @@ export default function WorkBox({ featureImage, title, tag, type, slug }) {
               className="work-featured"
             ></Image>
           </figure>
-          <div className="mt-[9px]">
+          <div className="mt-[3px]">
             <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim">
               {title}
             </h3>

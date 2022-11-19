@@ -25,7 +25,7 @@ export default function About({ team }) {
   return (
     <>
       <section>
-        <div className=" w-full px-2 pb-10 mx-auto xl:w-[70%]">
+        <div className=" w-full px-2 mb-[42px] mx-auto xl:w-[70%]">
           <div className="md:w-[39.938rem] w-full ">
             <p className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
               Facilitating design intent across residential housing <br />
@@ -34,8 +34,8 @@ export default function About({ team }) {
           </div>
         </div>
 
-        <div className=" w-full px-2 pb-10 mx-auto xl:w-[70%]">
-          <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim mb-3">
+        <div className=" w-full px-2 mb-[42px] mx-auto xl:w-[70%]">
+          <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim mb-[9px]">
             Senior Project Management
           </h3>
           <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-[9px]">
@@ -56,7 +56,7 @@ export default function About({ team }) {
           </div>
         </div>
 
-        <div className="w-full px-2 pb-10 mx-auto xl:w-[70%]">
+        <div className="w-full px-2 mx-auto mb-[42px] xl:w-[70%]">
           <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim mb-3">
             Junior Site Management
           </h3>
@@ -78,7 +78,7 @@ export default function About({ team }) {
           </div>
         </div>
 
-        <div className="w-full px-2 pb-10 mx-auto xl:w-[70%]">
+        <div className="w-full px-2 mb-[42px] mx-auto xl:w-[70%]">
           <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim mb-3">
             Carpentry
           </h3>
@@ -100,7 +100,7 @@ export default function About({ team }) {
           </div>
         </div>
 
-        <div className="w-full px-2 pb-10 mx-auto xl:w-[70%]">
+        <div className="w-full px-2 mb-[9px] mx-auto xl:w-[70%]">
           <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim mb-3">
             Office
           </h3>
