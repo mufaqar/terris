@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 
 export default function Contact() {
   return (
@@ -52,6 +53,38 @@ export default function Contact() {
                 </a>
               </li>
             </ul>
+
+            <ul className="">
+              <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
+                <span className="mr-[9px]">Client Portal</span>
+                <a
+                  href="https://www.instagram.com/terris.co"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image
+                    src="/images/link-icon.svg"
+                    width={10}
+                    height={9}
+                    alt=""
+                  />
+                </a>
+              </li>
+            </ul>
+            <ul className="">
+              <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
+                <span className="mr-[9px]">Onboarding Keynote</span>
+                <a href="#" target="_blank" rel="noreferrer">
+                  <Image
+                    src="/images/download-icon.svg"
+                    width={10}
+                    height={9}
+                    alt=""
+                  />
+                </a>
+              </li>
+            </ul>
+
             <ul className="">
               <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
                 <a
