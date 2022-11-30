@@ -54,7 +54,7 @@ export default function SlugPage({ project }) {
   return (
     <>
       <section className="">
-        <div className=" xl:w-[70%] w-full mx-auto mb-[21px] px-2 ">
+        <div className="xl:w-[70%] w-full mx-auto mb-[21px] px-2 ">
           <div className="">
             <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim">
               {project.title}
@@ -67,13 +67,15 @@ export default function SlugPage({ project }) {
             </p>
           </div>
         </div>
-        <div className="md:w-[70%] w-full mx-auto mb-[21px] px-2 ">
-          <p className="font-AtlasGroteskRegular text-[17px]">
-            A restoration of a hundred-plus year old heritage home and the
-            addition of an infill building transformed this site from a single
-            family dwelling to a five unit development for the homeowner, her
-            aging mother, and her extended family. Work on this.
-          </p>
+        <div className="md:w-[70%] xl:mx-auto  mb-[21px] px-2 ">
+          <div className="xl:w-[70%]">
+            <p className="font-AtlasGroteskRegular text-[17px]">
+              A restoration of a hundred-plus year old heritage home and the
+              addition of an infill building transformed this site from a single
+              family dwelling to a five unit development for the homeowner, her
+              aging mother, and her extended family. Work on this.
+            </p>
+          </div>
         </div>
 
         <div className=" w-full px-2 mx-auto gallery xl:w-[70%]">
