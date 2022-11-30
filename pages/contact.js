@@ -56,31 +56,19 @@ export default function Contact() {
 
             <ul className="">
               <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
-                <span className="mr-[9px]">Client Portal</span>
                 <a
                   href="https://www.instagram.com/terris.co"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Image
-                    src="/images/link-icon.svg"
-                    width={12}
-                    height={10.8}
-                    alt=""
-                  />
+                  <span className="mr-[9px]">Client Portal</span>
                 </a>
               </li>
             </ul>
             <ul className="">
               <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
-                <span className="mr-[9px]">Onboarding Keynote</span>
                 <a href="#" target="_blank" rel="noreferrer">
-                  <Image
-                    src="/images/download-icon.svg"
-                    width={12}
-                    height={12}
-                    alt=""
-                  />
+                  <span className="mr-[9px]">Onboarding Keynote</span>
                 </a>
               </li>
             </ul>
