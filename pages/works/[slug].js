@@ -53,8 +53,8 @@ const projectSlugQuery = `*[_type == "projects" && slug.current == $slug][0]{
 export default function SlugPage({ project }) {
   return (
     <>
-      <section className=''>
-        <div className=" xl:w-[70%] w-full mx-auto mb-[42px] px-2 ">
+      <section className="">
+        <div className=" xl:w-[70%] w-full mx-auto mb-[21px] px-2 ">
           <div className="">
             <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim">
               {project.title}
@@ -66,6 +66,14 @@ export default function SlugPage({ project }) {
               {project.type}
             </p>
           </div>
+        </div>
+        <div className="xl:w-[70%] w-full mx-auto mb-[21px] px-2">
+          <p>
+            A restoration of a hundred-plus year old heritage home and the
+            addition of an infill building transformed this site from a single
+            family dwelling to a five unit development for the homeowner, her
+            aging mother, and her extended family. Work on this.
+          </p>
         </div>
 
         <div className=" w-full px-2 mx-auto gallery xl:w-[70%]">
@@ -94,7 +102,7 @@ export default function SlugPage({ project }) {
               width="640"
               height="360"
               frameBorder="0"
-              className='bg-white'
+              className="bg-white"
               allow="autoplay; fullscreen; picture-in-picture"
               allowFullScreen
             ></iframe>
@@ -160,7 +168,7 @@ export default function SlugPage({ project }) {
           </ul>
         </div>
       </section>
-      <section className='mb-[9px]'>
+      <section className="mb-[9px]">
         <div className="w-full px-2 mx-auto conteiner xl:w-[70%] ">
           {project.related_project.map((related, index) => (
             <WorkBox
