@@ -67,8 +67,8 @@ export default function SlugPage({ project }) {
             </p>
           </div>
         </div>
-        <div className="xl:w-[70%] w-full mx-auto mb-[21px] px-2 font-AtlasGroteskRegular text-[17px]">
-          <p>
+        <div className="xl:w-[70%] w-full mx-auto mb-[21px] px-2 ">
+          <p className="font-AtlasGroteskRegular text-[17px]">
             A restoration of a hundred-plus year old heritage home and the
             addition of an infill building transformed this site from a single
             family dwelling to a five unit development for the homeowner, her
