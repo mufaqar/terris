@@ -64,8 +64,8 @@ export default function Contact() {
                 >
                   <Image
                     src="/images/link-icon.svg"
-                    width={10}
-                    height={9}
+                    width={12}
+                    height={10.8}
                     alt=""
                   />
                 </a>
@@ -77,8 +77,8 @@ export default function Contact() {
                 <a href="#" target="_blank" rel="noreferrer">
                   <Image
                     src="/images/download-icon.svg"
-                    width={10}
-                    height={9}
+                    width={12}
+                    height={12}
                     alt=""
                   />
                 </a>
