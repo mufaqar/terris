@@ -28,8 +28,9 @@ export default function About({ team }) {
         <div className=" w-full px-2 mb-[42px] mx-auto xl:w-[70%]">
           <div className="md:w-[39.938rem] w-full ">
             <p className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
-              Facilitating design intent across residential housing <br />
-              typologies in the lower mainland of British Columbia.
+              Terris & Company is a fully accredited general contracting firm
+              engaging in custom residential projects, including new
+              construction, renovations, additions and restorations.
             </p>
           </div>
         </div>
