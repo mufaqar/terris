@@ -26,7 +26,7 @@ export default function Header() {
             <a className="md:order-first"> Terris & Company </a>
           </Link>
           <Link href="/contact">
-            <a> Contact</a>
+            <a className="md:order-last"> Contact</a>
           </Link>
         </div>
       </nav>
