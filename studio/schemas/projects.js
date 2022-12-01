@@ -39,6 +39,11 @@ export default {
       ],
     },
     {
+      name: 'write_up',
+      type: 'text',
+      title: 'Write Up',
+    },
+    {
       name: 'tag',
       type: 'string',
       title: 'Tag',
@@ -111,7 +116,7 @@ export default {
     {
       name: 'video',
       type: 'string',
-      title: 'Video Id',
+      title: 'Video ID',
     },
     {
       name: 'location',
@@ -163,7 +168,7 @@ export default {
       of: [{ type: 'string' }],
     },
     {
-      title: 'Related Project',
+      title: 'Related Projects',
       name: 'related_project',
       type: 'array',
       of: [
