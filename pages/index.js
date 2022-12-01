@@ -21,7 +21,7 @@ export default function Home({ projects }) {
   return (
     <>
       <section>
-        <div className="w-full px-2 mx-auto conteiner xl:w-[70%]">
+        <div className="w-full px-2 mx-auto conteiner xl:w-[70%] mb-[84px]">
           {projects.map((project, index) => (
             <WorkBox
               title={project.title}
