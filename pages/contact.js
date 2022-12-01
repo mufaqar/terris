@@ -9,33 +9,33 @@ export default function Contact() {
         <div className="xl:w-[70%] w-full mx-auto  md:pb-5  px-2 h-[80vh] flex flex-col justify-between">
           <div className="grid gap-[42px]">
             <ul className="">
-              <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
+              <li className="teris_font font-AtlasGroteskRegular">
                 Terris & Company General Contractors Ltd.
               </li>
-              <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
+              <li className="teris_font font-AtlasGroteskRegular">
                 facilitating design intent™
               </li>
             </ul>
 
             <ul className="">
-              <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
+              <li className="teris_font font-AtlasGroteskRegular">
                 853 Union Street
               </li>
-              <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
+              <li className="teris_font font-AtlasGroteskRegular">
                 Vancouver, BC
               </li>
-              <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
+              <li className="teris_font font-AtlasGroteskRegular">
                 Canada V6A 2C5
               </li>
             </ul>
 
             <ul className="">
-              <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular ">
+              <li className="teris_font font-AtlasGroteskRegular ">
                 <a href="tel:+16045355323" rel="noreferrer">
                   +1 604 535 5323
                 </a>
               </li>
-              <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular underline">
+              <li className="teris_font font-AtlasGroteskRegular underline">
                 <a href="mailto:rterris@terrisco.com" rel="noreferrer">
                   rterris@terrisco.com
                 </a>
@@ -43,7 +43,7 @@ export default function Contact() {
             </ul>
 
             <ul className="">
-              <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular underline">
+              <li className="teris_font font-AtlasGroteskRegular underline">
                 <a
                   href="https://www.instagram.com/terris.co"
                   target="_blank"
@@ -55,7 +55,7 @@ export default function Contact() {
             </ul>
 
             <ul className="">
-              <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular underline">
+              <li className="teris_font font-AtlasGroteskRegular underline">
                 <a
                   href="https://www.instagram.com/terris.co"
                   target="_blank"
@@ -66,7 +66,7 @@ export default function Contact() {
               </li>
             </ul>
             <ul className="">
-              <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular underline">
+              <li className="teris_font font-AtlasGroteskRegular underline">
                 <a href="#" target="_blank" rel="noreferrer">
                   <span className="mr-[9px]">Onboarding Keynote</span>
                 </a>
@@ -74,7 +74,7 @@ export default function Contact() {
             </ul>
 
             <ul className="">
-              <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular underline">
+              <li className="teris_font font-AtlasGroteskRegular underline">
                 <a
                   href="https://www.makerbros.co"
                   target="_blank"

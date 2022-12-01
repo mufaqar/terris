@@ -15,15 +15,9 @@ export default function WorkBox({ featureImage, title, tag, type, slug }) {
             ></Image>
           </figure>
           <div className="mt-[3px]">
-            <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim">
-              {title}
-            </h3>
-            <p className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
-              {tag}
-            </p>
-            <p className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
-              {type}
-            </p>
+            <h3 className="teris_font font-AtlasGroteskMeduim">{title}</h3>
+            <p className="teris_font font-AtlasGroteskRegular">{tag}</p>
+            <p className="teris_font font-AtlasGroteskRegular">{type}</p>
           </div>
         </a>
       </Link>

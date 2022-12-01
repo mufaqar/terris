@@ -2,27 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @font-face {
-    font-family: "AtlasGroteskReg"; 
-    src: url("../public/fonts/atlasgrotesk-regular.woff2");
-  }
-  @font-face {
-    font-family: "AtlasGroteskMed"; 
-    src: url("../public/fonts/atlasgrotesk-medium.woff2");
-  }
-  
-  
-  .work > span {
-    position: unset !important;
-  }
-  
-  .work-featured {
-    object-fit: contain;
-    width: 100% !important;
-    position: relative !important;
-    height: unset !important;
-  }
+  font-family: 'AtlasGroteskReg';
+  src: url('../public/fonts/atlasgrotesk-regular.woff2');
+}
+@font-face {
+  font-family: 'AtlasGroteskMed';
+  src: url('../public/fonts/atlasgrotesk-medium.woff2');
+}
 
-  
+.work > span {
+  position: unset !important;
+}
+
+.work-featured {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+
+.teris_font {
+  @apply 2xl:text-[19px] 2xl:leading-[28px] xl:text-[17px] xl:leading-[26px] md:text-[15px] md:leading-[24px]  text-[13px] leading-[15.6px];
+}

@@ -30,12 +30,8 @@ export default function TeamBox({
             teamOpen === id ? 'opacity-100' : 'opacity-0'
           }`}
         >
-          <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular mb-2">
-            {name}
-          </h3>
-          <p className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular mb-2">
-            {detail}
-          </p>
+          <h3 className="teris_font font-AtlasGroteskRegular mb-2">{name}</h3>
+          <p className="teris_font font-AtlasGroteskRegular mb-2">{detail}</p>
         </div>
       </div>
     </>
