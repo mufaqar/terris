@@ -170,7 +170,7 @@ export default function SlugPage({ project }) {
           </ul>
         </div>
       </section>
-      <section className="mb-[9px] mb-[84px]">
+      <section className="mb-[84px] ">
         <div className="w-full px-2 mx-auto conteiner xl:w-[70%] ">
           {project.related_project.map((related, index) => (
             <WorkBox
