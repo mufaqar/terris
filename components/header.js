@@ -18,7 +18,7 @@ export default function Header() {
       </Head>
 
       <nav className="mb-[84px] md:mb-[168px]">
-        <div className="xl:w-[70%] w-full mx-auto lg:text-[1.063rem]  md:text-[0.938rem] md:leading-[24px] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular font-normal mt-[9px] md:mt-[21px] px-2 flex md:flex-col justify-between">
+        <div className="xl:w-[70%] w-full mx-auto lg:text-[1.063rem]  md:text-[0.938rem] md:leading-[26px] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular font-normal mt-[9px] md:mt-[21px] px-2 flex md:flex-col justify-between">
           <Link href="/about">
             <a className="md:order-last"> About</a>
           </Link>
