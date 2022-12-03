@@ -23,5 +23,12 @@
 }
 
 .teris_font {
-  @apply 2xl:text-[19px] 2xl:leading-[28px] xl:text-[17px] xl:leading-[26px] md:text-[15px] md:leading-[24px]  text-[13px] leading-[15.6px];
+  @apply 2xl:text-[15px] 2xl:leading-[20px] xl:text-[15px] xl:leading-[20px] md:text-[15px] md:leading-[20px]  text-[13px] leading-[18px];
+}
+.teris_font_menu {
+  @apply xl:text-[15px] xl:leading-[24px] md:text-[15px] md:leading-[24px]  text-[13px] leading-[18px];
+}
+
+.teris_font_bigp {
+  @apply md:text-[19px] md:leading-[24px] text-[17px] leading-[22px];
 }

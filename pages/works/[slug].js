@@ -56,20 +56,20 @@ export default function SlugPage({ project }) {
       <section className="">
         <div className="xl:w-[70%] w-full mx-auto mb-[21px] px-2 ">
           <div className="">
-            <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim">
+            <h3 className="teris_font font-AtlasGroteskMeduim">
               {project.title}
             </h3>
-            <p className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
+            <p className="teris_font font-AtlasGroteskRegular">
               {project?.tag}
             </p>
-            <p className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
+            <p className="teris_font font-AtlasGroteskRegular">
               {project.type}
             </p>
           </div>
         </div>
         <div className="md:w-[70%] xl:mx-auto  mb-[21px] px-2 ">
           <div className="xl:w-[70%]">
-            <p className="font-AtlasGroteskRegular text-[17px]">
+            <p className="teris_font_bigp font-AtlasGroteskRegular">
               A restoration of a hundred-plus year old heritage home and the
               addition of an infill building transformed this site from a single
               family dwelling to a five unit development for the homeowner, her
@@ -113,40 +113,35 @@ export default function SlugPage({ project }) {
 
         <div className=" xl:w-[70%] w-full mx-auto pt-[9px] px-2  grid gap-7 mt-[42px]">
           <ul className="">
-            <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
+            <li className="teris_font font-AtlasGroteskRegular">
               {project?.location}
             </li>
-            <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
+            <li className="teris_font font-AtlasGroteskRegular">
               {project?.year}
             </li>
-            <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular">
+            <li className="teris_font font-AtlasGroteskRegular">
               {project?.area}
             </li>
           </ul>
 
           <ul className="">
-            <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim">
+            <li className="teris_font font-AtlasGroteskMeduim">
               Project highlights
             </li>
             {project.project_highlights.map((highlight, index) => (
-              <li
-                key={index}
-                className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular"
-              >
+              <li key={index} className="teris_font font-AtlasGroteskRegular">
                 {highlight}
               </li>
             ))}
           </ul>
 
           <ul className="">
-            <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim">
-              Featured In
-            </li>
+            <li className="teris_font font-AtlasGroteskMeduim">Featured In</li>
 
             {project.featured_in.map((feturedin, index) => (
               <li
                 key={index}
-                className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular underline hover:no-underline cursor-auto"
+                className="teris_font font-AtlasGroteskRegular underline hover:no-underline cursor-auto"
               >
                 <a href={feturedin?.link} target="_blank" rel="noreferrer">
                   {feturedin.hading}
@@ -156,14 +151,11 @@ export default function SlugPage({ project }) {
           </ul>
 
           <ul className="border-b border-black pb-[42px]">
-            <li className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim">
+            <li className="teris_font font-AtlasGroteskMeduim">
               Collaborators
             </li>
             {project.Collaborators.map((colb, index) => (
-              <li
-                key={index}
-                className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskRegular"
-              >
+              <li key={index} className="teris_font  font-AtlasGroteskRegular">
                 {colb}
               </li>
             ))}

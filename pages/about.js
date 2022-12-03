@@ -27,7 +27,7 @@ export default function About({ team }) {
       <section className="mb-[84px]">
         <div className=" w-full px-2 mb-[42px] mx-auto xl:w-[70%]">
           <div className="md:w-[39.938rem] w-full ">
-            <p className="teris_font font-AtlasGroteskRegular">
+            <p className="teris_font_bigp font-AtlasGroteskRegular">
               Terris & Company is a fully accredited general contracting firm
               engaging in custom residential projects, including new
               construction, renovations, additions and restorations.
