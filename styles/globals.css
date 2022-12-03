@@ -34,5 +34,5 @@
 }
 
 .teris_screen {
-  @apply lg:w-[55%] md:w-[97.65%];
+  @apply lg:w-[55%] md:w-[749px];
 }
