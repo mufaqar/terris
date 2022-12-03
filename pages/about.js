@@ -39,7 +39,7 @@ export default function About({ team }) {
           <h3 className="teris_font font-AtlasGroteskMeduim mb-[9px]">
             Senior Project Management
           </h3>
-          <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-[9px]">
+          <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-2 gap-[9px]">
             {team
               .filter((team) => team.categories === 'Senior Project Management')
               .map((senior_team, index) => (
