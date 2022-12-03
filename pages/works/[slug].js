@@ -54,7 +54,7 @@ export default function SlugPage({ project }) {
   return (
     <>
       <section className="">
-        <div className="xl:w-[70%] w-full mx-auto mb-[21px] px-2 ">
+        <div className="teris_screen w-full mx-auto mb-[21px] px-2 ">
           <div className="">
             <h3 className="teris_font font-AtlasGroteskMeduim">
               {project.title}
@@ -67,7 +67,7 @@ export default function SlugPage({ project }) {
             </p>
           </div>
         </div>
-        <div className="md:w-[70%] xl:mx-auto  mb-[21px] px-2 ">
+        <div className="teris_screen xl:mx-auto  mb-[21px] px-2 ">
           <div className="xl:w-[70%]">
             <p className="teris_font_bigp font-AtlasGroteskRegular">
               A restoration of a hundred-plus year old heritage home and the
@@ -78,7 +78,7 @@ export default function SlugPage({ project }) {
           </div>
         </div>
 
-        <div className=" w-full px-2 mx-auto gallery xl:w-[70%]">
+        <div className=" w-full px-2 mx-auto gallery teris_screen">
           <div className="grid gap-[9px]">
             <OwnImage
               path={project.featureimage.asset.url}
@@ -97,7 +97,7 @@ export default function SlugPage({ project }) {
             ))}
           </div>
         </div>
-        <div className="relative xl:w-[70%] w-full mx-auto pt-[9px] px-2 gap-7">
+        <div className="relative teris_screen w-full mx-auto pt-[9px] px-2 gap-7">
           <div className="aspect-w-16 aspect-h-9">
             <iframe
               src={`https://player.vimeo.com/video/${project.video}?color=ffffff&title=0&byline=0&portrait=0&badge=0`}
@@ -111,7 +111,7 @@ export default function SlugPage({ project }) {
           </div>
         </div>
 
-        <div className=" xl:w-[70%] w-full mx-auto pt-[9px] px-2  grid gap-7 mt-[42px]">
+        <div className=" teris_screen w-full mx-auto pt-[9px] px-2  grid gap-7 mt-[42px]">
           <ul className="">
             <li className="teris_font font-AtlasGroteskRegular">
               {project?.location}
@@ -163,7 +163,7 @@ export default function SlugPage({ project }) {
         </div>
       </section>
       <section className="mb-[84px] ">
-        <div className="w-full px-2 mx-auto conteiner xl:w-[70%] ">
+        <div className="w-full px-2 mx-auto conteiner teris_screen ">
           {project.related_project.map((related, index) => (
             <WorkBox
               title={related.title}

@@ -25,7 +25,7 @@ export default function About({ team }) {
   return (
     <>
       <section className="mb-[84px]">
-        <div className=" w-full px-2 mb-[42px] mx-auto xl:w-[70%]">
+        <div className=" w-full px-2 mb-[42px] mx-auto teris_screen">
           <div className="md:w-[39.938rem] w-full ">
             <p className="teris_font_bigp font-AtlasGroteskRegular">
               Terris & Company is a fully accredited general contracting firm
@@ -35,7 +35,7 @@ export default function About({ team }) {
           </div>
         </div>
 
-        <div className=" w-full px-2 mb-[42px] mx-auto xl:w-[70%]">
+        <div className=" w-full px-2 mb-[42px] mx-auto teris_screen">
           <h3 className="teris_font font-AtlasGroteskMeduim mb-[9px]">
             Senior Project Management
           </h3>
@@ -57,7 +57,7 @@ export default function About({ team }) {
           </div>
         </div>
 
-        <div className="w-full px-2 mx-auto mb-[42px] xl:w-[70%]">
+        <div className="w-full px-2 mx-auto mb-[42px] teris_screen">
           <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim mb-3">
             Junior Site Management
           </h3>
@@ -79,7 +79,7 @@ export default function About({ team }) {
           </div>
         </div>
 
-        <div className="w-full px-2 mb-[42px] mx-auto xl:w-[70%]">
+        <div className="w-full px-2 mb-[42px] mx-auto teris_screen">
           <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim mb-3">
             Carpentry
           </h3>
@@ -101,7 +101,7 @@ export default function About({ team }) {
           </div>
         </div>
 
-        <div className="w-full px-2 mb-[9px] mx-auto xl:w-[70%]">
+        <div className="w-full px-2 mb-[9px] mx-auto teris_screen">
           <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim mb-3">
             Office
           </h3>

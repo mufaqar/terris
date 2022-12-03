@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <>
       <section>
-        <div className="xl:w-[70%] w-full mx-auto  md:pb-5  px-2 h-[80vh] flex flex-col justify-between">
+        <div className="teris_screen w-full mx-auto  md:pb-5  px-2 h-[80vh] flex flex-col justify-between">
           <div className="grid gap-[42px]">
             <ul className="">
               <li className="teris_font font-AtlasGroteskRegular">
