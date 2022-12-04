@@ -1,7 +1,7 @@
 export default {
   name: 'keynotes',
   type: 'document',
-  title: 'Key Notes',
+  title: 'Contact Us',
   fields: [
     {
       name: 'client',

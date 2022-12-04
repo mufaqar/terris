@@ -67,7 +67,7 @@ export default function SlugPage({ project }) {
             </p>
           </div>
         </div>
-        <div className="teris_screen xl:mx-auto  mb-[21px] px-2 ">
+        <div className="teris_screen mx-auto  mb-[21px] px-2 ">
           <div className="xl:w-[70%]">
             <p className="teris_font_bigp font-AtlasGroteskRegular">
               A restoration of a hundred-plus year old heritage home and the
