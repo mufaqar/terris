@@ -17,7 +17,7 @@ const teamQuery = `*[_type == "team"]{
 }`;
 
 export default function About({ team }) {
-  console.log("🚀 ~ file: about.js:20 ~ About ~ team", team)
+  console.log('🚀 ~ file: about.js:20 ~ About ~ team', team);
   const [teamOpen, setTeamOpen] = useState(null);
 
   const stateChange = (id) => {
@@ -59,10 +59,10 @@ export default function About({ team }) {
         </div>
 
         <div className="w-full px-2 mx-auto mb-[42px] teris_screen">
-          <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim mb-3">
+          <h3 className="teris_font font-AtlasGroteskMeduim mb-3">
             Junior Site Management
           </h3>
-          <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-[9px]">
+          <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-2 gap-[9px]">
             {team
               .filter((team) => team.categories === 'Junior Site Management')
               .map((junior_team, index) => (
@@ -81,10 +81,8 @@ export default function About({ team }) {
         </div>
 
         <div className="w-full px-2 mb-[42px] mx-auto teris_screen">
-          <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim mb-3">
-            Carpentry
-          </h3>
-          <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-[9px]">
+          <h3 className="teris_font font-AtlasGroteskMeduim mb-3">Carpentry</h3>
+          <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-2 gap-[9px]">
             {team
               .filter((team) => team.categories === 'Carpentry')
               .map((carpentry_team, index) => (
@@ -103,10 +101,8 @@ export default function About({ team }) {
         </div>
 
         <div className="w-full px-2 mb-[9px] mx-auto teris_screen">
-          <h3 className="lg:text-[1.063rem] lg:leading-[1.375rem] md:text-[0.938rem] md:leading-[1.25rem] text-[0.813rem] leading-[1.125rem] font-AtlasGroteskMeduim mb-3">
-            Office
-          </h3>
-          <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-[9px]">
+          <h3 className="teris_font font-AtlasGroteskMeduim mb-3">Office</h3>
+          <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-2 gap-[9px]">
             {team
               .filter((team) => team.categories === 'Office')
               .map((office_team, index) => (
