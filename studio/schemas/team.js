@@ -1,37 +1,37 @@
 export default {
-  name: "team",
-  type: "document",
-  title: "Team",
+  name: 'team',
+  type: 'document',
+  title: 'Team',
   fields: [
     {
-      title: "Categories",
-      name: "categories",
-      type: "string",
+      title: 'Categories',
+      name: 'categories',
+      type: 'string',
       options: {
         list: [
           {
-            title: "Senior Project Management",
-            value: "Senior Project Management",
+            title: 'Senior Project Management',
+            value: 'Senior Project Management',
           },
-          { title: "Junior Site Management", value: "Junior Site Management" },
-          { title: "Carpentry", value: "Carpentry" },
-          { title: "Office", value: "Office" },
+          { title: 'Junior Site Management', value: 'Junior Site Management' },
+          { title: 'Carpentry', value: 'Carpentry' },
+          { title: 'Office', value: 'Office' },
         ], // <-- predefined values
-        layout: "radio", // <-- defaults to 'dropdown'
+        layout: 'radio', // <-- defaults to 'dropdown'
       },
     },
     {
-      title: "Feature Image",
-      name: "featureimage",
-      type: "image",
+      title: 'Feature Image',
+      name: 'featureimage',
+      type: 'image',
       options: {
         hotspot: true, // <-- Defaults to false
       },
       fields: [
         {
-          name: "caption",
-          type: "string",
-          title: "Caption",
+          name: 'caption',
+          type: 'string',
+          title: 'Caption',
           options: {
             isHighlighted: true, // <-- make this field easily accessible
           },
@@ -39,18 +39,18 @@ export default {
       ],
     },
     {
-      name: "name",
-      type: "string",
-      title: "Name",
+      name: 'name',
+      type: 'string',
+      title: 'Name',
     },
 
     {
-      name: "portableText",
-      type: "array",
-      title: "Content",
+      name: 'portableText',
+      type: 'array',
+      title: 'Bio',
       of: [
         {
-          type: "block",
+          type: 'block',
         },
       ],
     },

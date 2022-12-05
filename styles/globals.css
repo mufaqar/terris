@@ -36,3 +36,7 @@
 .teris_screen {
   @apply xl:w-[60%] md:w-[749px];
 }
+
+.teris_screen_bigp {
+  @apply md:w-[526px] lg:w-[526px] xl:w-[39.938rem];
+}

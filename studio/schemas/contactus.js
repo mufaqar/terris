@@ -4,11 +4,6 @@ export default {
   title: 'Contact Us',
   fields: [
     {
-      name: 'name',
-      type: 'string',
-      title: 'Name',
-    },
-    {
       name: 'client',
       type: 'string',
       title: 'Client Portal',

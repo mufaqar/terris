@@ -68,7 +68,7 @@ export default function SlugPage({ project }) {
           </div>
         </div>
         <div className="teris_screen mx-auto  mb-[21px] px-2 ">
-          <div className="xl:w-[70%]">
+          <div className="teris_screen_bigp">
             <p className="teris_font_bigp font-AtlasGroteskRegular">
               A restoration of a hundred-plus year old heritage home and the
               addition of an infill building transformed this site from a single
