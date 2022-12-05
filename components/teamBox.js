@@ -1,15 +1,16 @@
-import OwnImage from './OwnImage';
-import PortableText from 'react-portable-text';
+import OwnImage from "./OwnImage";
+import {PortableText} from '@portabletext/react'
+
 
 export default function TeamBox({
   name,
-  detail,
+  content,
   imgPath,
   teamState,
   teamOpen,
   id,
 }) {
-  console.log(detail);
+  console.log(content);
   const handleClick = (id) => {
     if (teamOpen === id) {
       return teamState(null);
@@ -29,23 +30,12 @@ export default function TeamBox({
         ></OwnImage>
         <div
           className={`absolute inset-0 grid content-start p-0 overflow-auto bg-white  team-overlay ${
-            teamOpen === id ? 'opacity-100' : 'opacity-0'
+            teamOpen === id ? "opacity-100" : "opacity-0"
           }`}
         >
           <h3 className="teris_font font-AtlasGroteskRegular mb-2">{name}</h3>
           <div className="teris_font font-AtlasGroteskRegular mb-2">
-            <PortableText
-              // Pass in block content straight from Sanity.io
-              content={detail}
-              // Optionally override marks, decorators, blocks, etc. in a flat
-              // structure without doing any gymnastics
-              serializers={{
-                span: (props) => <p style={{ color: 'red' }} {...props} />,
-                p: ({ children }) => (
-                  <li className="special-list-item">{children}</li>
-                ),
-              }}
-            />
+            <PortableText value={content}  />
           </div>
         </div>
       </div>

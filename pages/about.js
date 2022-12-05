@@ -11,12 +11,13 @@ const teamQuery = `*[_type == "team"]{
         caption,
     },
     name,
-    detail,
+    portableText,
     categories,
     _id
 }`;
 
 export default function About({ team }) {
+  console.log("🚀 ~ file: about.js:20 ~ About ~ team", team)
   const [teamOpen, setTeamOpen] = useState(null);
 
   const stateChange = (id) => {
@@ -46,7 +47,7 @@ export default function About({ team }) {
                 <TeamBox
                   key={index}
                   name={senior_team.name}
-                  detail={senior_team.detail}
+                  content={senior_team.portableText}
                   categorie={senior_team.categories}
                   id={senior_team._id}
                   imgPath={senior_team.featureimage}
@@ -68,7 +69,7 @@ export default function About({ team }) {
                 <TeamBox
                   key={index}
                   name={junior_team.name}
-                  detail={junior_team.detail}
+                  content={junior_team.portableText}
                   categorie={junior_team.categories}
                   imgPath={junior_team.featureimage}
                   id={junior_team._id}
@@ -90,7 +91,7 @@ export default function About({ team }) {
                 <TeamBox
                   key={index}
                   name={carpentry_team.name}
-                  detail={carpentry_team.detail}
+                  content={carpentry_team.portableText}
                   categorie={carpentry_team.categories}
                   imgPath={carpentry_team.featureimage}
                   id={carpentry_team._id}
@@ -112,7 +113,7 @@ export default function About({ team }) {
                 <TeamBox
                   key={index}
                   name={office_team.name}
-                  detail={office_team.detail}
+                  content={office_team.portableText}
                   categorie={office_team.categories}
                   imgPath={office_team.featureimage}
                   id={office_team._id}
