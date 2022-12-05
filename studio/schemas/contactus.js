@@ -22,8 +22,7 @@ export default {
   preview: {
     select: {
       title: 'name',
-      subtitle: 'client'
-    }
-  }
-
+      subtitle: 'client',
+    },
+  },
 };

@@ -2,6 +2,7 @@ import React from 'react';
 import { sanityClient } from '../lib/sanityClient';
 // sanity Queries
 const contactQuery = `*[_type == "contactus"]{  
+  name,
   client,
   _id,
   keynote{
@@ -13,7 +14,7 @@ const contactQuery = `*[_type == "contactus"]{
 
 export default function Contact({ contactUs }) {
   const { client, keynote } = contactUs[0];
-  console.log('contact', client);
+  console.log('contact', name);
   return (
     <>
       <section>
