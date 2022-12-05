@@ -41,7 +41,7 @@ export default function TeamBox({
               // structure without doing any gymnastics
               serializers={{
                 span: (props) => <p style={{ color: 'red' }} {...props} />,
-                li: ({ children }) => (
+                p: ({ children }) => (
                   <li className="special-list-item">{children}</li>
                 ),
               }}
