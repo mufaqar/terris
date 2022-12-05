@@ -5,7 +5,7 @@ import createSchema from 'part:@sanity/base/schema-creator';
 import schemaTypes from 'all:part:@sanity/base/schema-type';
 import team from './team';
 import projects from './projects';
-import keynotes from './keynotes';
+import contactus from './contactus';
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -17,6 +17,6 @@ export default createSchema({
 
     projects,
     team,
-    keynotes,
+    contactus,
   ]),
 });

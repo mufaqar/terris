@@ -1,8 +1,25 @@
 import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
+import { sanityClient } from '../lib/sanityClient';
 
-export default function Contact() {
+
+// sanity Queries
+const contactQuery = `*[_type == "contactus"]{
+  
+  client,
+  _id,
+  keynote{
+    asset->{
+      url
+    },
+  },
+}`;
+
+
+export default function Contact({contactUs}) {
+  const {client, keynote} = contactUs[0]
+  console.log("🚀 ~ file: contact.js:22 ~ Contact ~ keynote", keynote)
   return (
     <>
       <section>
@@ -57,7 +74,7 @@ export default function Contact() {
             <ul className="">
               <li className="teris_font font-AtlasGroteskRegular underline">
                 <a
-                  href="https://www.instagram.com/terris.co"
+                  href={client}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -67,7 +84,7 @@ export default function Contact() {
             </ul>
             <ul className="">
               <li className="teris_font font-AtlasGroteskRegular underline">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href={keynote.asset.url} target="_blank" rel="noreferrer" >
                   <span className="mr-[9px]">Onboarding Keynote</span>
                 </a>
               </li>
@@ -79,6 +96,7 @@ export default function Contact() {
                   href="https://www.makerbros.co"
                   target="_blank"
                   rel="noreferrer"
+
                 >
                   A nice one by Maker Brothers Worldwide®
                 </a>
@@ -89,4 +107,15 @@ export default function Contact() {
       </section>
     </>
   );
+}
+
+
+
+export async function getStaticProps() {
+  const contactUs = await sanityClient.fetch(contactQuery);
+  return {
+    props: {
+      contactUs,
+    },
+  };
 }

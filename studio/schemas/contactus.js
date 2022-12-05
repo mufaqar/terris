@@ -1,5 +1,5 @@
 export default {
-  name: 'keynotes',
+  name: 'contactus',
   type: 'document',
   title: 'Contact Us',
   fields: [
