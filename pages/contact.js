@@ -1,19 +1,6 @@
 import React from 'react';
-import { sanityClient } from '../lib/sanityClient';
-// sanity Queries
-const contactQuery = `*[_type == "contactus"]{  
-  client,
-  _id,
-  keynote{
-    asset->{
-      url
-    },
-  },
-}`;
 
-export default function Contact({ contactUs }) {
-  const { client, keynote } = contactUs[0];
-
+export default function Contact() {
   return (
     <>
       <section>
@@ -67,14 +54,18 @@ export default function Contact({ contactUs }) {
 
             <ul className="">
               <li className="teris_font font-AtlasGroteskRegular underline">
-                <a href={client} target="_blank" rel="noreferrer">
+                <a
+                  href="https://www.instagram.com/terris.co"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <span className="mr-[9px]">Client Portal</span>
                 </a>
               </li>
             </ul>
             <ul className="">
               <li className="teris_font font-AtlasGroteskRegular underline">
-                <a href={keynote.asset.url} target="_blank" rel="noreferrer">
+                <a href="/keynote.pdf" target="_blank" rel="noreferrer">
                   <span className="mr-[9px]">Onboarding Keynote</span>
                 </a>
               </li>
