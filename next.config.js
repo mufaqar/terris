@@ -3,10 +3,12 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: [
-      "cdn.sanity.io"
-    ],
+    domains: ['cdn.sanity.io'],
   },
-}
+  i18n: {
+    locales: ['en'],
+    defaultLocale: 'en',
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
