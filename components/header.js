@@ -15,6 +15,10 @@ export default function Header() {
       <Head>
         <title>Terris & Company</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="Terris & Company is a fully accredited general contracting firm engaging in custom residential projects, including new construction, renovations, additions and restorations"
+        />
       </Head>
 
       <nav className="mb-[84px] md:mb-[168px]">
