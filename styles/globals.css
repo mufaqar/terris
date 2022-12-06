@@ -22,6 +22,10 @@
   height: unset !important;
 }
 
+.custom_p p {
+  margin-bottom: 10px;
+}
+
 .teris_font {
   @apply 2xl:text-[15px] 2xl:leading-[20px] xl:text-[15px] xl:leading-[20px] md:text-[15px] md:leading-[20px]  text-[13px] leading-[18px];
 }

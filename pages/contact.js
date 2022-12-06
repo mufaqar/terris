@@ -55,7 +55,7 @@ export default function Contact() {
             <ul className="">
               <li className="teris_font font-AtlasGroteskRegular underline">
                 <a
-                  href="https://www.instagram.com/terris.co"
+                  href="https://www.google.com"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -87,13 +87,4 @@ export default function Contact() {
       </section>
     </>
   );
-}
-
-export async function getStaticProps() {
-  const contactUs = await sanityClient.fetch(contactQuery);
-  return {
-    props: {
-      contactUs,
-    },
-  };
 }

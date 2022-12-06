@@ -1,6 +1,5 @@
-import OwnImage from "./OwnImage";
-import {PortableText} from '@portabletext/react'
-
+import OwnImage from './OwnImage';
+import { PortableText } from '@portabletext/react';
 
 export default function TeamBox({
   name,
@@ -30,12 +29,12 @@ export default function TeamBox({
         ></OwnImage>
         <div
           className={`absolute inset-0 grid content-start p-0 overflow-auto bg-white  team-overlay ${
-            teamOpen === id ? "opacity-100" : "opacity-0"
+            teamOpen === id ? 'opacity-100' : 'opacity-0'
           }`}
         >
           <h3 className="teris_font font-AtlasGroteskRegular mb-2">{name}</h3>
-          <div className="teris_font font-AtlasGroteskRegular mb-2">
-            <PortableText value={content}  />
+          <div className="teris_font font-AtlasGroteskRegular mb-2 custom_p">
+            <PortableText value={content} />
           </div>
         </div>
       </div>
