@@ -29,7 +29,7 @@ export default function Home({ projects }) {
               type={project.type}
               featureImage={project.featureimage}
               key={index}
-              slug={project.slug.current}
+              slug={project.slug?.current}
             />
           ))}
         </div>
