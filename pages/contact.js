@@ -16,7 +16,7 @@ export default function Contact() {
 
           <ul>
             <li className="teris_font font-AtlasGroteskRegular">
-              853 Union Street
+              853 Union Street 123
             </li>
             <li className="teris_font font-AtlasGroteskRegular">
               Vancouver, BC
