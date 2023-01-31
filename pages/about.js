@@ -3,7 +3,7 @@ import TeamBox from '../components/teamBox';
 import { sanityClient } from '../lib/sanityClient';
 
 // sanity Queries
-const teamQuery = `*[_type == "team"]{
+const teamQuery = `*[_type == "team"]|order(orderRank){
     featureimage{
         asset->{
           url
