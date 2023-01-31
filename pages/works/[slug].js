@@ -81,14 +81,14 @@ export default function SlugPage({ project }) {
         <div className=" w-full px-2 mx-auto gallery teris_screen">
           <div className="grid gap-[9px]">
             <OwnImage
-              path={project.featureimage.asset.url}
+              path={project.featureimage?.asset.url}
               alt={
                 project.featureimage?.caption
                   ? project.featureimage?.caption
                   : project.title
               }
             />
-            {project.gallery.images.map((image, index) => (
+            {project.gallery?.images.map((image, index) => (
               <OwnImage
                 path={image.asset.url}
                 alt={image?.caption ? image?.caption : project.title}
@@ -128,7 +128,7 @@ export default function SlugPage({ project }) {
             <li className="teris_font font-AtlasGroteskMeduim">
               Project highlights
             </li>
-            {project.project_highlights.map((highlight, index) => (
+            {project.project_highlights?.map((highlight, index) => (
               <li key={index} className="teris_font font-AtlasGroteskRegular">
                 {highlight}
               </li>
@@ -138,7 +138,7 @@ export default function SlugPage({ project }) {
           <ul className="">
             <li className="teris_font font-AtlasGroteskMeduim">Featured In</li>
 
-            {project.featured_in.map((feturedin, index) => (
+            {project.featured_in?.map((feturedin, index) => (
               <li
                 key={index}
                 className="teris_font font-AtlasGroteskRegular underline hover:no-underline cursor-auto"
@@ -154,7 +154,7 @@ export default function SlugPage({ project }) {
             <li className="teris_font font-AtlasGroteskMeduim">
               Collaborators
             </li>
-            {project.Collaborators.map((colb, index) => (
+            {project.Collaborators?.map((colb, index) => (
               <li key={index} className="teris_font  font-AtlasGroteskRegular">
                 {colb}
               </li>
@@ -164,7 +164,7 @@ export default function SlugPage({ project }) {
       </section>
       <section className="mb-[84px] ">
         <div className="w-full px-2 mx-auto conteiner teris_screen ">
-          {project.related_project.map((related, index) => (
+          {project.related_project?.map((related, index) => (
             <WorkBox
               title={related.title}
               tag={related.tag}
